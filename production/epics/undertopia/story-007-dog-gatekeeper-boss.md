@@ -1,12 +1,12 @@
 # Story 007: 강아지 문지기 보스
 
 > **Epic**: Undertopia
-> **Status**: Ready
+> **Status**: Superseded
 > **Layer**: Feature
 > **Type**: Integration
 > **Estimate**: M
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: (set by /dev-story when implementation begins)
+> **Last Updated**: 2026-11-03
 
 ## Context
 

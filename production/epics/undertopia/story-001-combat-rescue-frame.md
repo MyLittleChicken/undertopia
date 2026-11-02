@@ -1,12 +1,12 @@
 # Story 001: 전투 틀과 구하기 흐름
 
 > **Epic**: Undertopia
-> **Status**: Complete
+> **Status**: Superseded
 > **Layer**: Core
 > **Type**: Logic
 > **Estimate**: L
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: 2026-11-02
+> **Last Updated**: 2026-11-03
 
 ## Context
 

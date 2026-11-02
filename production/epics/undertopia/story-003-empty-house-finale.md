@@ -1,12 +1,12 @@
 # Story 003: 작은 빈집(최종 보스)과 엔딩
 
 > **Epic**: Undertopia
-> **Status**: Ready
+> **Status**: Superseded
 > **Layer**: Feature
 > **Type**: Integration
 > **Estimate**: L
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: (set by /dev-story when implementation begins)
+> **Last Updated**: 2026-11-03
 
 ## Context
 

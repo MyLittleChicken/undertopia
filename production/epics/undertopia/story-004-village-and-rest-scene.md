@@ -1,12 +1,12 @@
 # Story 004: 마을 한 구역·주민·빈집 휴식 장면
 
 > **Epic**: Undertopia
-> **Status**: Ready
+> **Status**: Superseded
 > **Layer**: Presentation
 > **Type**: Visual/Feel
 > **Estimate**: L
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: (set by /dev-story when implementation begins)
+> **Last Updated**: 2026-11-03
 
 ## Context
 

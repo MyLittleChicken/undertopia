@@ -1,12 +1,12 @@
 # Story 002: 곰 제빵사 보스
 
 > **Epic**: Undertopia
-> **Status**: Ready
+> **Status**: Superseded
 > **Layer**: Feature
 > **Type**: Integration
 > **Estimate**: M
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: (set by /dev-story when implementation begins)
+> **Last Updated**: 2026-11-03
 
 ## Context
 
@@ -54,8 +54,16 @@
 
 ## Files
 
-- `src/bosses/bear/`
-- `tests/integration/boss_bear/bear_rescue_test.gd`
+- `src/bosses/bear/bear_boss.gd`
+- `src/bosses/bear/bear_boss.tres`
+- `src/bosses/bear/bear_bread_rule.gd`
+- `src/bosses/bear/bear_data.gd`
+- `src/bosses/bear/bear_demo.tscn`
+- `src/bosses/bear/bear_rescue_rule.tres`
+- `src/combat/combat_encounter.gd`
+- `src/player/player.gd`
+- `tests/playtest/bear/bear_flow_playthrough.gd`
+- `tests/playtest/bear/bear_flow_playthrough.tscn`
 
 ---
 

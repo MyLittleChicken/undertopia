@@ -1,7 +1,8 @@
 # Epic: Undertopia
 
 > **Source**: `design/game-brief.md` (minimal tier — no GDD, ADR, or control manifest)
-> **Status**: In progress
+> **Status**: In progress — story set being rebuilt for the new combat system
+> **Superseded 2026-11-03**: stories 001–007 below were written for an "attack to strip overflow" combat. They are kept as history; the new combat is `design/gdd/combat-system.md` (rounds, mind gauge, clue choices, three stage types). Run `/create-stories` for the new set. Existing code (movement, dodge, HP, restart, rescue record) is reused.
 
 ## Goal
 
@@ -19,10 +20,10 @@
 
 | # | Story | Type | Status | ADR |
 |---|-------|------|--------|-----|
-| 001 | 전투 틀과 구하기 흐름 | Logic | Ready | N/A |
-| 002 | 곰 제빵사 보스 | Integration | Ready | N/A |
-| 003 | 작은 빈집(최종 보스)과 엔딩 | Integration | Ready | N/A |
-| 004 | 마을 한 구역·주민·빈집 휴식 장면 | Visual/Feel | Ready | N/A |
-| 005 | 고양이 재봉사 보스 | Integration | Ready | N/A |
-| 006 | 토끼 자매 보스 | Integration | Ready | N/A |
-| 007 | 강아지 문지기 보스 | Integration | Ready | N/A |
+| 001 | 전투 틀과 구하기 흐름 | Logic | Superseded (was Complete) | N/A |
+| 002 | 곰 제빵사 보스 | Integration | Superseded (was In Progress) | N/A |
+| 003 | 작은 빈집(최종 보스)과 엔딩 | Integration | Superseded | N/A |
+| 004 | 마을 한 구역·주민·빈집 휴식 장면 | Visual/Feel | Superseded | N/A |
+| 005 | 고양이 재봉사 보스 | Integration | Superseded | N/A |
+| 006 | 토끼 자매 보스 | Integration | Superseded | N/A |
+| 007 | 강아지 문지기 보스 | Integration | Superseded | N/A |
