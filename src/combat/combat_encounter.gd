@@ -23,6 +23,8 @@ var _won: bool = false
 
 
 func _ready() -> void:
+	# Each encounter owns its rule: progress is mutable state and the .tres is a shared cache.
+	rescue_rule = rescue_rule.duplicate() as RescueRule
 	_player = $Player as Player
 	_boss = $Boss as Boss
 	_boss.position = get_viewport_rect().size * Vector2(0.5, 0.4)

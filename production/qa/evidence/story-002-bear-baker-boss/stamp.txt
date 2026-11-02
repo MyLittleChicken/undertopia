@@ -1,0 +1,8 @@
+Reviewed-Content-Hash: src/bosses/bear/bear_boss.gd c46bf5d9978f149dcd914acdba8d65b7cff6749b
+Reviewed-Content-Hash: src/bosses/bear/bear_boss.tres 55131a62f821d280b4344dac46a637ca18df5567
+Reviewed-Content-Hash: src/bosses/bear/bear_bread_rule.gd 88c367ffce24435633b84e9e1abb9650bd76db6f
+Reviewed-Content-Hash: src/bosses/bear/bear_data.gd 25e997e4da210d5837b9df776336558c112e3aff
+Reviewed-Content-Hash: src/bosses/bear/bear_demo.tscn b681687638f2679af66f35320e276564b45891a0
+Reviewed-Content-Hash: src/bosses/bear/bear_rescue_rule.tres 5cb047b342ce5ee69e01e18c3056056a633233f5
+Reviewed-Content-Hash: src/combat/combat_encounter.gd 404ae3932841f5ff367ec2d706c0446bf9b2059a
+Reviewed-Content-Hash: src/player/player.gd e11739732713a15f9cf8c65b3e47e82723ff3c2a

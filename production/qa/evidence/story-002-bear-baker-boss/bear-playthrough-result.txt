@@ -1,0 +1,25 @@
+PASS: oven makes bread right away (loaves=1)
+PASS: starts BAKING in OVERFLOW at full overflow
+PASS: bread walks to the player and hugs (max hugs=4)
+PASS: hugs stack up to the cap and no further (max hugs=4 cap=4)
+PASS: walking bread never exceeds its cap (max loaves=3 cap=6)
+PASS: hugs set the speed multiplier from data (hugs=4 mult=0.410)
+PASS: hugged player walks slower than normal (walked=15.0 normal=36.7)
+PASS: dodge shakes all hugs off and restores speed (hugs=0 mult=1.000)
+PASS: attacks strip overflow, never add it (hits=8)
+PASS: popped bread can only make it faster than attacks alone (hits=8 at most 10)
+PASS: overflow 0 -> original resident: no bread, no hugs, normal speed
+PASS: holding interact fills the hand-over progress (progress after 20 ticks=0.32)
+PASS: releasing interact resets progress
+PASS: handing over the bread rescues the bear (ticks=60)
+PASS: hand-over takes about hold_time (ticks=60 expected=60)
+PASS: the bear sits down to eat
+PASS: the wish phrase is revealed right after the rescue (wish='배부르고')
+PASS: rescue is recorded for the bear
+PASS: after eating the bear is FULL (oven off)
+PASS: the fight dealt no damage (hugs only slow) (hp=5)
+PASS: final hit with two loaves in reach clears the fight
+PASS: shared rescue-rule .tres progress is untouched after a full fight (progress=0.00)
+PASS: an encounter uses its own copy of the rule
+PASS: a new encounter starts with rescue progress 0
+SEMI-TEST RESULT: PASS (24 checks, 0 failed)

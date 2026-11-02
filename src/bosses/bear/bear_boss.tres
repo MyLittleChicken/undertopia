@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="BearData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/bosses/bear/bear_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+resident_id = &"bear"
+contact_damage = 0

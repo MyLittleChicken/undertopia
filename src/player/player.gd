@@ -12,6 +12,8 @@ signal attacked(origin: Vector2, attack_range: float, damage: float)
 
 var data: PlayerData
 var hp: int = 0
+## Walking-speed multiplier set by bosses (e.g. the bear's hugs). Dodge speed is not scaled.
+var speed_multiplier: float = 1.0
 
 var _attack_cd: float = 0.0
 var _dodge_cd: float = 0.0
@@ -69,7 +71,7 @@ func _physics_process(delta: float) -> void:
 		_dodge_elapsed += delta
 		position += _dodge_dir * data.dodge_speed * delta
 	else:
-		position += dir * data.move_speed * delta
+		position += dir * data.move_speed * speed_multiplier * delta
 		if Input.is_action_just_pressed(InputSetup.DODGE) and _dodge_cd <= 0.0:
 			_dodge_dir = _facing
 			_dodge_left = data.dodge_duration
