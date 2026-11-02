@@ -1,0 +1,12 @@
+Reviewed-Content-Hash: src/combat/boss.gd 5a2ac23c5b385a95ef4342ed6bf96fcecebc6be7
+Reviewed-Content-Hash: src/combat/boss_data.gd ec81ef26e7cca3a5e5b96c759298015c8abde438
+Reviewed-Content-Hash: src/combat/combat_demo.tscn aaff743339aeef4a72724920308121c7af4c7761
+Reviewed-Content-Hash: src/combat/combat_encounter.gd 46e5c204c03f6edcaa60b850cc2415fcfa19d2a5
+Reviewed-Content-Hash: src/combat/default_boss.tres 9602b37d94cf1863ce8d1c2a1ac0ee4418abaa4f
+Reviewed-Content-Hash: src/combat/default_hold_rule.tres 451c84f5dbdb185e909995534915763b14a3ed94
+Reviewed-Content-Hash: src/combat/default_player.tres 58c27cb6e8f353b7ef28aef3358e293fcc1b81be
+Reviewed-Content-Hash: src/combat/hold_interact_rule.gd 1adc3908afb2b8d061999aac5361d0b3b4261058
+Reviewed-Content-Hash: src/combat/input_setup.gd 28c2f1d10ae1a3a0dfff0ffe61c901d4ff9ebd68
+Reviewed-Content-Hash: src/combat/player_data.gd 3ed6b0b96bb629a9c636cae21cb31609d8d2f32d
+Reviewed-Content-Hash: src/combat/rescue_rule.gd c6d2d4542d49edcd983ccdad7b2fbf00d64ccc15
+Reviewed-Content-Hash: src/player/player.gd a57a722d49e11b10265da920cab5a8bc68e014f4

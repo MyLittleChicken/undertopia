@@ -1,0 +1,20 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://src/combat/combat_encounter.gd" id="1"]
+[ext_resource type="Script" path="res://src/player/player.gd" id="2"]
+[ext_resource type="Script" path="res://src/combat/boss.gd" id="3"]
+[ext_resource type="Resource" path="res://src/combat/default_player.tres" id="4"]
+[ext_resource type="Resource" path="res://src/combat/default_boss.tres" id="5"]
+[ext_resource type="Resource" path="res://src/combat/default_hold_rule.tres" id="6"]
+
+[node name="CombatDemo" type="Node2D"]
+script = ExtResource("1")
+player_data = ExtResource("4")
+boss_data = ExtResource("5")
+rescue_rule = ExtResource("6")
+
+[node name="Boss" type="Node2D" parent="."]
+script = ExtResource("3")
+
+[node name="Player" type="Node2D" parent="."]
+script = ExtResource("2")

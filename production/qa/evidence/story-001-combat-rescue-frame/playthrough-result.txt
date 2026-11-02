@@ -1,0 +1,24 @@
+PASS: AC-1 move right changes position (dx=110.0)
+PASS: AC-1 move left changes position (back to dx=0.0)
+PASS: AC-1 dodge grants i-frames
+PASS: AC-1 dodge moves farther than walking (moved=111.3 walk-only=51.3)
+PASS: AC-1 i-frames end
+PASS: setup: player stands within attack reach, outside contact range (dist=98.1)
+PASS: AC-2 boss starts in OVERFLOW at full overflow
+PASS: AC-1 attack strips overflow (hits=10)
+PASS: AC-2 hit count matches data (overflow_max / attack_damage) (hits=10 expected=10)
+PASS: AC-3 overflow reaches 0 and boss becomes ORIGINAL
+PASS: AC-1 interact (hold) fills rescue progress (progress after 20 ticks=0.32)
+PASS: AC-5 releasing interact resets progress
+PASS: AC-5 no rescue before the hold completes
+PASS: AC-5 holding interact completes the rescue (ticks=60)
+PASS: AC-5 rescue takes about hold_time (ticks=60 expected=60)
+PASS: AC-5 rescue is recorded and fight_won fired
+PASS: AC-6 setup: boss lost some overflow before the player dies (overflow=80)
+PASS: AC-6 setup: the boss hurts the player until HP is 1 (hp=1)
+PASS: AC-6 HP 0 triggers a restart (restarts=1)
+PASS: AC-6 player HP restored (hp=5)
+PASS: AC-6 boss reset to OVERFLOW at full overflow
+PASS: AC-6 player back at the start position (off by 0.0)
+PASS: AC-6 earlier rescue record untouched
+SEMI-TEST RESULT: PASS (23 checks, 0 failed)
