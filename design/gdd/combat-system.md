@@ -1,5 +1,7 @@
 # Combat System
 
+> **⚠️ Superseded (2026-11-09)**: `design/gdd/encounter-system.md`로 대체됐다. 라운드와 마음 게이지는 새 설계로 이어지고, 스테이지 유형 3종과 단서 선택 규칙은 바뀌었다. 기록용으로만 남긴다.
+>
 > **Status**: Draft v1 (approved 2026-11-02)
 > **Source**: design discussion; supersedes the "attack to strip overflow" model of story 001/002
 > **Record at `minimal`**: this file is a design reference; `design/game-brief.md` stays the one-page summary.
